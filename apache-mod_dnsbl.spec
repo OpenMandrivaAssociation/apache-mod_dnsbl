@@ -6,7 +6,7 @@
 Summary:	Mod_dnsbl is a blacklisting DSO for apache using DNS lookups
 Name:		apache-%{mod_name}
 Version:	0.10
-Release:	%mkrel 2
+Release:	%mkrel 3
 Group:		System/Servers
 License:	GPL
 URL:		http://software.othello.ch/mod_dnsbl/
@@ -24,8 +24,6 @@ BuildRequires:	apache-devel >= 2.2.0
 BuildRequires:	automake1.7
 BuildRequires:	autoconf2.5
 BuildRequires:  file
-Provides:	apache2-mod_dnsbl
-Obsoletes:	apache2-mod_dnsbl
 Epoch:		1
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
