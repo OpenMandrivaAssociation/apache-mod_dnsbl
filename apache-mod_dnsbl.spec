@@ -25,7 +25,6 @@ BuildRequires:	automake1.7
 BuildRequires:	autoconf2.5
 BuildRequires:  file
 Epoch:		1
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 mod_dnsbl is a blacklisting module for the apache proxy.  It uses
