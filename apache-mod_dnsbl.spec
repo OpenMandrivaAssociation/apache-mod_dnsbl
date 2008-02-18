@@ -3,7 +3,7 @@
 %define mod_conf A30_%{mod_name}.conf
 %define mod_so %{mod_name}.so
 
-Summary:	Mod_dnsbl is a blacklisting DSO for apache using DNS lookups
+Summary:	Blacklisting DSO for apache using DNS lookups
 Name:		apache-%{mod_name}
 Version:	0.10
 Release:	%mkrel 3
