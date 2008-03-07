@@ -6,7 +6,7 @@
 Summary:	Blacklisting DSO for apache using DNS lookups
 Name:		apache-%{mod_name}
 Version:	0.10
-Release:	%mkrel 4
+Release:	%mkrel 5
 Group:		System/Servers
 License:	GPL
 URL:		http://software.othello.ch/mod_dnsbl/
