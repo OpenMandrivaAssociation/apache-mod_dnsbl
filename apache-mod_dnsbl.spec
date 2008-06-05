@@ -44,7 +44,7 @@ cp %{SOURCE1} %{mod_conf}
 
 %build
 
-%configure2_5x \
+%configure2_5x --localstatedir=/var/lib \
     --with-apxs=%{_sbindir}/apxs
 
 %make
