@@ -9,7 +9,7 @@ Version:	0.11
 Release:	9
 Group:		System/Servers
 License:	GPL
-URL:		http://software.othello.ch/mod_dnsbl/
+URL:		https://software.othello.ch/mod_dnsbl/
 Source0:	http://software.othello.ch/mod_dnsbl/%{mod_name}-%{version}.tar.gz
 Source1:	%{mod_conf}
 Requires(pre): rpm-helper
